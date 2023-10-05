@@ -1,0 +1,154 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+}
+
+body {
+  height: 100vh;
+  font-size: 1.6rem;
+  background-color: #000;
+  padding: 11.5rem;
+}
+
+html, body, button, input, table {
+  font-family: "Roboto", sans-serif;
+}
+
+.sr-only {
+  position: absolute;
+  border: 0 !important;
+  clip: rect(1px, 1px, 1px, 1px) !important;
+  -webkit-clip-path: inset(50%) !important;
+  clip-path: inset(50%) !important;
+  height: 1px !important;
+  margin: -1px !important;
+  overflow: hidden !important;
+  padding: 0 !important;
+  position: absolute !important;
+  width: 1px !important;
+  white-space: nowrap !important;
+}
+
+main {
+  width: 112rem;
+  display: grid;
+  gap: 8.7rem;
+  align-items: center;
+  margin: 0 auto;
+}
+main header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 2rem;
+}
+main header .search {
+  display: flex;
+  align-items: center;
+}
+main header .search label {
+  color: white;
+}
+main header .search #input-search {
+  width: 43rem;
+  height: 4.8rem;
+  border-radius: 0.5rem;
+  padding: 1.6rem;
+  background-color: #06181C;
+  border: none;
+  color: #E1E1E6;
+}
+main header button {
+  position: relative;
+  width: 16.6rem;
+  height: 4.8rem;
+  padding: 1.6rem 3rem;
+  background-color: #065E7C;
+  border: none;
+  border-radius: 0.5rem;
+  color: #fff;
+  font-weight: 700;
+  margin-left: 0.8rem;
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+}
+main header button:hover {
+  background-color: #fff;
+  color: #065E7C;
+}
+main header button:hover svg path {
+  fill: #065E7C;
+  transition: 0.2s ease-in-out;
+}
+main table {
+  border-collapse: collapse;
+  margin-bottom: 11rem;
+}
+main table thead {
+  background-color: #092D38;
+}
+main table thead tr {
+  text-align: left;
+}
+main table thead tr th {
+  color: #E1E1E6;
+  padding: 1.6rem 4rem;
+}
+main table thead tr th:first-child {
+  border-radius: 1.2rem 0 0 0;
+}
+main table thead tr th:last-child {
+  border-radius: 0 1.2rem 0 0;
+}
+main table tbody {
+  text-align: left;
+}
+main table tbody tr:nth-child(odd) {
+  background-color: rgba(6, 22, 27, 0.5);
+}
+main table tbody tr:nth-child(even) {
+  background-color: #06181C;
+}
+main table tbody tr .user {
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+  padding: 1.6rem 3.2rem;
+}
+main table tbody tr .user img {
+  width: 5.6rem;
+  height: 5.6rem;
+  border-radius: 50%;
+}
+main table tbody tr .user a {
+  text-decoration: none;
+  color: #E1E1E6;
+  font-size: 2rem;
+  font-weight: 700;
+}
+main table tbody tr .user a span {
+  font-weight: 400;
+}
+main table tbody tr td {
+  color: #E1E1E6;
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 3.2rem;
+  padding-left: 4rem;
+}
+main table tbody tr td button {
+  color: #F75A68;
+  font-size: 2rem;
+  font-weight: 700;
+  background: none;
+  border: none;
+  cursor: pointer;
+}/*# sourceMappingURL=style.css.map */
